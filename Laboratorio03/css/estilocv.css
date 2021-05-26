@@ -1,0 +1,31 @@
+body {
+  background-color: whitesmoke;
+}
+
+@font-face {
+  font-family: "lobster";
+  src: url("/fonts/Lobster-Regular.ttf");
+}
+
+h1 {
+  font-family: "lobster";
+  padding-left: 700px;
+  font-size: 70px;
+  color:darkred;
+}
+
+h2 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: darkblue;
+}
+
+ul li {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.Na, .Ed, .Do, .Te, .Em{
+  color: darkslateblue;
+}
+
+img{
+  border-radius: 100px;
+}

@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Kdam+Thmor&family=Lobster&display=swap");
+
+* {
+  padding: 10px;
+}
+
+body {
+  background-color: orchid;
+}
+
+.contenedor {
+  background-color: white;
+}
+
+/* agregamos el tipo de letra */
+
+.parrafo1 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.parrafo2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* agregamos estilos al parrafo */
+
+.parrafo3 {
+  font-style: italic;
+}
+
+.parrafo4 {
+  font-style: oblique;
+}
+
+.parrafo5 {
+  font-style: normal;
+}
+
+.parrafo6 {
+  font-weight: bold;
+}
+
+.parrafo7 {
+  font-weight: bolder;
+}
+
+.parrafo8 {
+  font-variant: small-caps;
+}
+
+.parrafo9 {
+  font-variant: normal;
+}
+
+.parrafo10 {
+  font-size: 30px;
+}
+
+/* utilizando fuentes de google descargadas */
+
+@font-face {
+  font-family: "Cinzel";
+  src: url("/fonts/Cinzel-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: "lobster";
+  src: url("/fonts/Lobster-Regular.ttf");
+}
+@font-face {
+  font-family: "Minecraft";
+  src: url("/fonts/Minecrafter.Reg.ttf");
+}
+.parrafo11 {
+  font-family: "lobster";
+}
+
+.parrafo12 {
+  font-family: "Cinzel";
+}
+
+/* utilizando fuentes imporatadas */
+
+.parrafo13 {
+  font-family: "Caveat", cursive;
+}
+
+.parrafo14 {
+  font-family: "Minecraft";
+}
