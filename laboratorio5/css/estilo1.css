@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    height: 900px;
+}
+
+form{
+    background-color: rgba(48, 164, 199, 0.432);
+    border-radius: 10px;
+    width: 100%;
+    padding: 20px ;
+    box-shadow: 0 0 6px 0 white
+}
+
+h1{
+    color: rgb(104, 22, 22);
+    text-align: center;
+}
+
+label{
+    color: blue;
+}
+
+input{
+    background: none;
+    color: white;
+    font-size: 18px;
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid red;
+}
+
+input:focus{
+    outline:none ;
+    color: red;
+}
+
+label{
+    color: royalblue;
+    font-size: 16px;
+    position: absolute;
+    left: 5px;
+    top: 10px;
+    transition: 0.5 ease-in-out all;
+    pointer-events: none;
+    
+}
+
+.barra{
+    position: relative;
+    display: block;
+    width: 100%;
+}
+
+.barra::before{
+    content: "";
+    height: 2px;
+    width: 0%;
+    bottom: 0;
+    position: absolute;
+    transition: 0.3 ease width;
+    left: 0;
+}
+
+input:focus～.barra::before{
+    width: 100%;
+}
+
+#btnRegistrar{
+    font-family: sans-serif;
+    background: red;
+    display: block;
+    width: 50%;
+    margin: 10px auto;
+    color: white;
+    height: 40px;
+    font-size: 16px;
+    
+}
+
+table td, th{
+    border: solid solid;
+    background-color: teal;
+}
+
+table{
+    background-color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: cornsilk;
+}

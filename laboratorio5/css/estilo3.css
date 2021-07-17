@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    height: 900px;
+}
+
+form{
+    background-color: rgba(48, 164, 199, 0.432);
+    border-radius: 10px;
+    width: 100%;
+    padding: 20px ;
+    box-shadow: 0 0 6px 0 white
+}
+
+h1{
+    color: rgb(104, 22, 22);
+    text-align: center;
+}
+
+label{
+    color: blue;
+}
+
+#txtNom, #txtApe, #txtDni {
+    background: none;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-bottom: 1px solid red;
+}
+
+input:focus{
+    outline:none ;
+    color: red;
+}
+
+label{
+    color: rgb(7, 7, 7);
+    font-size: 30px;
+}
+
+#btnRegistrar{
+    font-family: sans-serif;
+    background: red;
+    display: block;
+    width: 50%;
+    margin: 10px auto;
+    color: white;
+    height: 40px;
+    font-size: 16px;
+    
+}
+
+table td, th{
+    border: solid solid;
+    background-color: teal;
+}
+
+table{
+    background-color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: cornsilk;
+}
+
+#btnLimpiar{
+    font-family: sans-serif;
+    background: blue;
+    display: block;
+    width: 50%;
+    margin: 10px auto;
+    color: white;
+    height: 40px;
+    font-size: 16px;
+    
+}
